@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Öğrenim Akademisi|Test</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- FontAweome CDN Link for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+<body>
+    <!-- Başlatma Butonu -->
+    <div class="start_btn"><button>Testi Başlat</button></div>
+    <!--  index.html sayfasına geri dönme butonu ekleniyor  -->
+
+    </div>
+    <!-- Bilgi Alanı -->
+    <div class="info_box">
+        <div class="info-title"><span>Bazı Test Kuralları</span></div>
+        <div class="info-list">
+            <div class="info">Her Soru İçin  <span>15 saniye</span> süreniz vardır.</div>
+            <div class="info">Bir Şıkkı Seçtikten Sonra Geri Dönüş Yoktur.</div>
+            <div class="info">Süreniz Dolduktan Sonra Herhangi Bir Şık Seçemezsiniz.</div>
+            <div class="info">Verdiğiniz Cevaplar Üzerinden Puanınız Hesaplanacaktır.</div>
+        </div>
+        <div class="buttons">
+            <button class="quit">Geri Dön 
+                <i class="fas fa-arrow-left"></i>
+                
+            </button>
+            <button class="restart">Devam Et</button>
+            
+        </div>
+    </div>
+
+    <!-- Quiz Box -->
+    <div class="quiz_box">
+        <header>
+            <div class="title">Web Tasarımı Dersi Test Uygulaması</div>
+            <div class="timer">
+                <div class="time_left_txt">Kalan Süre</div>
+                <div class="timer_sec">15</div>
+            </div>
+            <div class="time_line"></div>
+        </header>
+        <section>
+            <div class="que_text">
+                <!-- Javascript tarafında yazdığımız kodlarla soruları buraya yazağız -->
+            </div>
+            <div class="option_list">
+                <!-- Soru cevap seçenekleri buraya gelecek -->
+            </div>
+        </section>
+
+        <!-- Çerçevenin Alt Kısmı Olacak Bu Alan -->
+        <footer>
+            <div class="total_que">
+                <!-- Soru sayısı buraya gelecek kaçıncı soru olduğu -->
+            </div>
+            <button class="stop_btn">Durdur</button>
+            <button class="next_btn">Sonraki Soru</button>
+        </footer>
+    </div>
+
+    <!-- Result Box -->
+    <div class="result_box">
+        <div class="icon">
+            <i class="fas fa-crown"></i>
+        </div>
+        <div class="complete_text">Testi Tamamladınız!</div>
+        <div class="score_text">
+            <!-- Test Sonucu Skor Buraya Yazılacak -->
+        </div>
+        <div class="buttons">
+            <button class="restart">Testi Yeniden Başlat</button>
+            <button class="quit">Testi Bitir</button>
+        </div>
+    </div>
+
+    <!-- Bu Js dosyasının içinde sorular ve cevaplar yer alacaktır. -->
+    <script src="questions.js"></script>
+
+    <!-- Testi oluşturan tüm kodlar ise bu alanda olacaktır. -->
+    <script src="script.js"></script>
+
+</body>
+</html>
+</html>
